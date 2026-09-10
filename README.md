@@ -13,8 +13,8 @@ library, music, YouTube channel stats, wallpaper, and Google Calendar sync.
 ## Screenshots
 
 <p align="center">
-  <img src="assets/screenshot-1.png" width="400">
-  <img src="assets/screenshot-2.png" width="400">
+  <img src="Screenshots/1.png" width="400">
+  <img src="Screenshots/2.png" width="400">
 </p>
 
 ## Install
