@@ -36,7 +36,6 @@ files (movie library, theme, `.installed` marker) untouched.
 | `mpv` | music/video playback |
 | `networkmanager` (`nmcli`) | network panel |
 | `xdg-utils` (`xdg-open`) | Google sign-in browser launch, opening links |
-|---|---|
 | `wl-clipboard` | clipboard panel |
 | `hyprlock` | lock button in the power menu |
 | `kitty` | terminal anime search is launched in |
