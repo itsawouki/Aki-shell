@@ -15,6 +15,12 @@ library, music, YouTube channel stats, wallpaper, and Google Calendar sync.
 <p align="center">
   <img src="Screenshots/1.png" width="400">
   <img src="Screenshots/2.png" width="400">
+  <img src="Screenshots/3.png" width="400">
+  <img src="Screenshots/4.png" width="400">
+  <img src="Screenshots/5.png" width="400">
+  <img src="Screenshots/6.png" width="400">
+  <img src="Screenshots/7.png" width="400">
+  <img src="Screenshots/8.png" width="400">
 </p>
 
 ## Install
