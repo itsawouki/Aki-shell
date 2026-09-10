@@ -23,6 +23,10 @@ config format, copies the shell into `~/.config/Aki-Shell`, creates
 `~/Videos/Movies` and `~/Music` if they don't exist, and leaves personal/local
 files (movie library, theme, `.installed` marker) untouched.
 
+**If the installer doesn't work for you** (fails partway, unsupported shell,
+or you'd rather do it by hand), see [MANUAL_INSTALL.md](MANUAL_INSTALL.md)
+for step-by-step manual setup.
+
 ## Dependencies
 
 ### Required
@@ -60,9 +64,39 @@ enable it — you'll create your own free Google Cloud OAuth credentials
 
 ## YouTube channel stats
 
-Off by default. Open the Settings panel in the shell and enter your channel
-ID and a YouTube Data API v3 key (get one free from Google Cloud Console) to
-enable the subscriber/view counter.
+Off by default. Shows your subscriber/view counter in the shell using the
+free YouTube Data API v3.
+
+### Getting a YouTube Data API key
+
+1. Go to the [Google Cloud Console](https://console.cloud.google.com/) and
+   sign in.
+2. Create a new project (top bar → project dropdown → **New Project**), or
+   pick an existing one.
+3. In the search bar, search for **YouTube Data API v3** and open it.
+4. Click **Enable**.
+5. Go to **APIs & Services → Credentials** (left sidebar).
+6. Click **+ Create Credentials → API key**.
+7. Copy the key that's generated.
+8. *(Recommended)* Click **Edit API key** and under **API restrictions**,
+   restrict it to **YouTube Data API v3** only — this limits what the key
+   can be used for if it ever leaks.
+
+### Getting your channel ID
+
+1. Go to [youtube.com](https://youtube.com) and open your channel.
+2. Click your profile icon → **Your channel**.
+3. The channel ID is in the URL: `youtube.com/channel/<THIS_PART>`.
+   - If your channel uses a custom handle URL instead (`youtube.com/@yourname`),
+     go to **YouTube Studio → Settings → Channel → Basic info** — your
+     channel ID is listed there.
+
+### Adding them to Aki-Shell
+
+Open the Settings panel in the shell and paste in your channel ID and API
+key. This is stored locally in `~/.config/Aki-Shell/yt-settings.json` and is
+never shared anywhere else — keep that file private and don't commit it if
+you fork this repo (it's already in `.gitignore`).
 
 ## Hyprland (lua) wiring
 
