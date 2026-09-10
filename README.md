@@ -13,7 +13,7 @@ library, music, YouTube channel stats, wallpaper, and Google Calendar sync.
 ## Install
 
 ```bash
-git clone https://github.com/<you>/Aki-Shell.git
+git clone https://github.com/itsawouki/Aki-shell.git
 cd Aki-Shell
 ./install.sh
 ```
@@ -36,9 +36,6 @@ files (movie library, theme, `.installed` marker) untouched.
 | `mpv` | music/video playback |
 | `networkmanager` (`nmcli`) | network panel |
 | `xdg-utils` (`xdg-open`) | Google sign-in browser launch, opening links |
-
-### Optional (feature-specific — shell runs fine without them)
-| Package | Used for |
 |---|---|
 | `wl-clipboard` | clipboard panel |
 | `hyprlock` | lock button in the power menu |
