@@ -10,6 +10,13 @@ library, music, YouTube channel stats, wallpaper, and Google Calendar sync.
 > installer can't wire up keybinds/autostart for you and a few Settings-panel
 > features won't work. See [MANUAL_INSTALL.md](MANUAL_INSTALL.md).
 
+## Screenshots
+
+<p align="center">
+  <img src="assets/screenshot-1.png" width="400">
+  <img src="assets/screenshot-2.png" width="400">
+</p>
+
 ## Install
 
 ```bash
